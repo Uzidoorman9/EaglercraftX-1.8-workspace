@@ -70,6 +70,13 @@ import net.minecraft.world.storage.ISaveFormat;
  * 
  */
 public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
+
+
+
+  private ResourceLocation randomBackground = null;
+
+
+
 	private static final Logger logger = LogManager.getLogger();
 	private static final EaglercraftRandom RANDOM = new EaglercraftRandom();
 	private float updateCounter;
@@ -115,7 +122,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 	private static ResourceLocation backgroundTexture2 = null;
 	private GuiUpdateCheckerOverlay updateCheckerOverlay;
 	private GuiButton downloadOfflineButton;
-	private boolean enableBlur = true;
+	private boolean enableBlur = false;
 	private boolean shouldReload = false;
 
 	private static GuiMainMenu instance = null;
@@ -261,6 +268,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 			viewportTexture2 = new MainMenuSkyboxTexture(256, 256);
 			backgroundTexture2 = this.mc.getTextureManager().getDynamicTextureLocation("background", viewportTexture2);
 		}
+  randomBackground = titlePanoramaPaths[RANDOM.nextInt(titlePanoramaPaths.length)];
 		this.updateCheckerOverlay.setResolution(mc, width, height);
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(new Date());
@@ -597,13 +605,30 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 	 * mouseY, renderPartialTicks
 	 */
 	public void drawScreen(int i, int j, float f) {
-		GlStateManager.disableAlpha();
-		if (enableBlur) {
-			this.renderSkybox(i, j, f);
-		} else {
-			this.drawPanorama(i, j, f);
-		}
-		GlStateManager.enableAlpha();
+
+// Code
+  GlStateManager.disableAlpha();
+  this.mc.getTextureManager().bindTexture(randomBackground);
+
+  Tessellator tessellator = Tessellator.getInstance();
+  WorldRenderer worldrenderer = tessellator.getWorldRenderer();
+
+  worldrenderer.begin(7, DefaultVertexFormats.POSITION_TEX);
+  worldrenderer.pos(0, this.height, this.zLevel).tex(0, 1).endVertex();
+  worldrenderer.pos(this.width, this.height, this.zLevel).tex(1, 1).endVertex();
+  worldrenderer.pos(this.width, 0, this.zLevel).tex(1, 0).endVertex();
+  worldrenderer.pos(0, 0, this.zLevel).tex(0, 0).endVertex();
+  tessellator.draw();
+
+  GlStateManager.enableAlpha();
+  
+
+
+
+
+
+
+
 		short short1 = 274;
 		int k = this.width / 2 - short1 / 2;
 		byte b0 = 30;
