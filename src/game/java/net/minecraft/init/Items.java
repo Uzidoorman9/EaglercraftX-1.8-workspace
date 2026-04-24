@@ -419,7 +419,7 @@ public class Items {
 			prismarine_crystals = getRegisteredItem("prismarine_crystals");
 			banner = getRegisteredItem("banner");
       //JJK ITEMS BELOW HERE
-      item_sukuna_finger = getRegisteredItem("item_sukuna_finger");
+      sukuna_finger = getRegisteredItem("sukuna_finger");
 		}
 	}
 }
