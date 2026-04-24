@@ -1043,7 +1043,8 @@ public class Item {
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
     //JJK ITEMS BELOW HERE
 
-    registerItem(432, (String) "sukuna_finger", (new ItemFood(8, 0.8F, true)).setUnlocalizedName("SukunaFinger");
+    registerItem(264, (String) "sukuna_finger",
+				(new Item()).setUnlocalizedName("sukunaFinger").setCreativeTab(CreativeTabs.tabFood));
 
 
 
