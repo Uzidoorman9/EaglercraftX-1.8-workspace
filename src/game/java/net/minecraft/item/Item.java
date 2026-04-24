@@ -1041,6 +1041,12 @@ public class Item {
 		registerItem(2265, (String) "record_ward", (new ItemRecord("ward")).setUnlocalizedName("record"));
 		registerItem(2266, (String) "record_11", (new ItemRecord("11")).setUnlocalizedName("record"));
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
+    //JJK ITEMS BELOW HERE
+    registerItem(364, (String) "item_sukuna_finger", (new ItemFood(8, 0.8F, true)).setUnlocalizedName("ItemSukunaFinger"));
+
+
+
+
 	}
 
 	/**+
