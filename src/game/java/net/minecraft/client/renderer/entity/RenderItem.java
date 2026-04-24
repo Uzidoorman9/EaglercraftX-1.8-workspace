@@ -1106,7 +1106,7 @@ public class RenderItem implements IResourceManagerReloadListener {
 				"red_mushroom_block");
 		this.registerBlock(Blocks.dragon_egg, "dragon_egg");
     //JJK MOD BELOW HERE
-    this.registerItem(Items.item_sukuna_finger, "item_sukuna_finger"))
+    this.registerItem(Items.item_sukuna_finger, "item_sukuna_finger");
 	}
 
 	public void onResourceManagerReload(IResourceManager var1) {
