@@ -1,7 +1,0 @@
-{
-  "parent": "builtin/generated",
-  "textures": {
-    "1": "minecraft:blocks/dragon_bone",
-    "particle": "minecraft:items/icon_sword"
-  }
-}
