@@ -221,7 +221,7 @@ public class Items {
 	public static Item prismarine_crystals;
 	public static Item banner;
   //JJK STUFF BELOW HERE
-  public static Item item_sukuna_finger;
+  public static Item sukuna_finger;
 
 	private static Item getRegisteredItem(String name) {
 		return (Item) Item.itemRegistry.getObject(new ResourceLocation(name));
