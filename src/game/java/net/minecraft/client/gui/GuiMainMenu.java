@@ -328,6 +328,10 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 				.add(new GuiButton(1, this.width / 2 - 100, parInt1, I18n.format("menu.singleplayer", new Object[0])));
 		this.buttonList.add(new GuiButton(2, this.width / 2 - 100, parInt1 + parInt2 * 1,
 				I18n.format("menu.multiplayer", new Object[0])));
+
+    this.buttonList.add(new GuiButton(16, this.width / 2 - 100, parInt1 + parInt2 * 2, "Help"));
+
+
 		if (EaglercraftVersion.mainMenuEnableGithubButton) {
 			this.buttonList.add(
 					new GuiButton(14, this.width / 2 - 100, parInt1 + parInt2 * 2, I18n.format("menu.forkOnGitlab")));
@@ -360,6 +364,9 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 	 * (Mouse pressed for buttons)
 	 */
 	protected void actionPerformed(GuiButton parGuiButton) {
+    if (parGuiButton.id == 16) {
+    this.mc.displayGuiScreen(new GuiAbout(this));
+    }
 		if (parGuiButton.id == 0) {
 			this.mc.displayGuiScreen(new GuiOptions(this, this.mc.gameSettings));
 		}
