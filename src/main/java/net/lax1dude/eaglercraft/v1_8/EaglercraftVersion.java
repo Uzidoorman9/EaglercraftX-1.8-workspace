@@ -3,19 +3,6 @@ package net.lax1dude.eaglercraft.v1_8;
 import java.math.BigInteger;
 
 public class EaglercraftVersion {
-	
-	
-	//////////////////////////////////////////////////////////////////////
-	
-	/// Customize these to fit your fork:
-	
-	public static final String projectForkName = null;
-	public static final String projectForkVersion = null;
-	public static final String projectForkVendor = null;
-	public static final String projectForkURL = "https://gitlab.com/lax1dude/eaglercraftx-1.8";
-	
-	//////////////////////////////////////////////////////////////////////
-	
 	public static final String projectOriginName = "EaglerJuJutsu";
 	public static final String projectOriginAuthor = "Uzi I think";
 	public static final String projectOriginRevision = "1.8";
