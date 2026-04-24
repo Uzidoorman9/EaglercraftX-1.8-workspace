@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/pistol",
+  "textures": {
+    "0": "jujutsucraft:block/pistol",
+    "particle": "minecraft:item/bow"
+  }
+}

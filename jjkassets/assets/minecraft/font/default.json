@@ -1,0 +1,44 @@
+{
+    "providers": [
+
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/icon_smallpox_deity_graveyard.png",
+            "ascent": 16,
+            "height": 18,
+            "chars": [
+                "\uE110"
+        
+            ]
+        },
+        {
+             "type":"bitmap",
+             "file":"minecraft:font/icon_smallpox_deity_1.png",
+             "ascent": 16,
+             "height": 18,
+             "chars":[
+                "\uE111"
+             
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"minecraft:font/icon_smallpox_deity_2.png",
+            "ascent": 16,
+            "height": 18,
+            "chars":[
+                "\uE112"
+                
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"minecraft:font/icon_smallpox_deity_3.png",
+            "ascent": 16,
+            "height": 18,
+            "chars":[
+                "\uE113"
+            ]
+        }
+    ]
+}

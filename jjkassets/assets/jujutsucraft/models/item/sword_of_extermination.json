@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/sword_of_extermination",
+  "textures": {
+    "0": "jujutsucraft:block/sword_of_extermination_blade",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

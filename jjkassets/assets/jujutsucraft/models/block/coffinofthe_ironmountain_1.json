@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jujutsucraft:block/coffin_of_the_iron_mountain_1",
+    "particle": "jujutsucraft:block/coffin_of_the_iron_mountain_1"
+  },
+  "render_type": "solid"
+}

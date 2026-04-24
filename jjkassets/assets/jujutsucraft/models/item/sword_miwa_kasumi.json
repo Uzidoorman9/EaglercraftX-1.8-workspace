@@ -1,0 +1,8 @@
+{
+  "parent": "jujutsucraft:custom/sword_miwa",
+  "textures": {
+    "0": "jujutsucraft:block/sword_miwa1",
+    "1": "jujutsucraft:block/silver",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

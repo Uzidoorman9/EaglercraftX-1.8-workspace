@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/broom",
+  "textures": {
+    "0": "jujutsucraft:block/broom",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

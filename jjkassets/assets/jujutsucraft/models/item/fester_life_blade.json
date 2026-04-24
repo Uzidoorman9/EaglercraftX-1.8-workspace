@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/fester_life_blade",
+  "textures": {
+    "0": "jujutsucraft:block/fester_life_blade",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

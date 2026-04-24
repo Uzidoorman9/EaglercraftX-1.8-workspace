@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/domain_dark_stone"
+    }
+  }
+}

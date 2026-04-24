@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/itadori_hand",
+  "textures": {
+    "0": "jujutsucraft:block/itadori_hand",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

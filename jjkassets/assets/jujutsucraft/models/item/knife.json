@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/knife",
+  "textures": {
+    "0": "jujutsucraft:block/knife",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

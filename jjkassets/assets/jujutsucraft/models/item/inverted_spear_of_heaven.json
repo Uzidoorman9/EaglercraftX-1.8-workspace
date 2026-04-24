@@ -1,0 +1,8 @@
+{
+  "parent": "jujutsucraft:custom/inverted_spear_of_heaven",
+  "textures": {
+    "0": "jujutsucraft:block/inverted_spear_of_heaven",
+    "1": "jujutsucraft:block/sword_blade",
+    "particle": "jujutsucraft:item/inverted_spear_of_heaven"
+  }
+}

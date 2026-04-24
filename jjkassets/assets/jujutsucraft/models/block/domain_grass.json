@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jujutsucraft:block/dirt",
+    "up": "jujutsucraft:block/grass_block_top",
+    "north": "jujutsucraft:block/grass_block_side",
+    "east": "jujutsucraft:block/grass_block_side",
+    "south": "jujutsucraft:block/grass_block_side",
+    "west": "jujutsucraft:block/grass_block_side",
+    "particle": "jujutsucraft:block/dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "jujutsucraft:custom/sword_shigemo",
+  "textures": {
+    "0": "jujutsucraft:block/sword_shigemo",
+    "1": "jujutsucraft:block/sword_blade",
+    "1_0": "jujutsucraft:block/sword_okkotsu",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

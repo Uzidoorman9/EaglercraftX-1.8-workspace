@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jujutsucraft:block/dirt",
+    "up": "jujutsucraft:block/tex_podzol_top",
+    "north": "jujutsucraft:block/tex_podzol_side",
+    "east": "jujutsucraft:block/tex_podzol_side",
+    "south": "jujutsucraft:block/tex_podzol_side",
+    "west": "jujutsucraft:block/tex_podzol_side",
+    "particle": "jujutsucraft:block/dirt"
+  },
+  "render_type": "solid"
+}

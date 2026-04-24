@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/wepon_nanami",
+  "textures": {
+    "0": "jujutsucraft:block/wepon_nanami",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

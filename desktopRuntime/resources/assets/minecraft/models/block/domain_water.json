@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft:blocks/tex_water",
+    "particle": "minecraft:blocks/tex_water"
+  }
+}

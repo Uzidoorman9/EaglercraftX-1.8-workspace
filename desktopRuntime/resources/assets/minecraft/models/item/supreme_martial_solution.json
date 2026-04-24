@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "0": "minecraft:blocks/supreme_martial_solution",
+    "particle": "minecraft:items/icon_sword"
+  }
+}

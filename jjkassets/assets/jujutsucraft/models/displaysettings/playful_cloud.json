@@ -1,0 +1,105 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        136,
+        -28,
+        -15
+      ],
+      "translation": [
+        -5.5,
+        1.75,
+        4.75
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -76.99,
+        -37.57,
+        -128.48
+      ],
+      "translation": [
+        -4.75,
+        -2.75,
+        4.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        99,
+        -28,
+        -15
+      ],
+      "translation": [
+        -5.75,
+        2.75,
+        1.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -76.99,
+        -37.57,
+        -128.48
+      ],
+      "translation": [
+        -6.25,
+        -2.75,
+        5.25
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -7,
+        0,
+        -45
+      ],
+      "translation": [
+        1.75,
+        1.75,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        21,
+        -45
+      ],
+      "translation": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        5,
+        -2.5
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -15,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -8.5
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/playful_cloud"
+  }
+}

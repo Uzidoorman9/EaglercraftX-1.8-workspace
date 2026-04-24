@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"swim": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [0, "Math.sin(query.anim_time*360)*10", 0]
+					}
+				},
+				"tail1": {
+					"rotation": {
+						"vector": [0, "Math.sin(query.anim_time*360)*15", 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [0, "Math.sin(query.anim_time*360)*15", 0]
+					}
+				},
+				"tail3": {
+					"rotation": {
+						"vector": [0, "Math.sin(query.anim_time*360)*22.5", 0]
+					}
+				}
+			}
+		},
+		"attack": {
+			"animation_length": 0.25,
+			"bones": {
+				"upper_jaw": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [-40, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-40, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lower_jaw": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [22.5, 0, 0]
+						},
+						"0.1667": {
+							"vector": [22.5, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:blocks/dirt",
+    "up": "minecraft:blocks/tex_podzol_top",
+    "north": "minecraft:blocks/tex_podzol_side",
+    "east": "minecraft:blocks/tex_podzol_side",
+    "south": "minecraft:blocks/tex_podzol_side",
+    "west": "minecraft:blocks/tex_podzol_side",
+    "particle": "minecraft:blocks/dirt"
+  }
+}

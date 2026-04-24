@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/supreme_martial_solution",
+  "textures": {
+    "0": "jujutsucraft:block/supreme_martial_solution",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

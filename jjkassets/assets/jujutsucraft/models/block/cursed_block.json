@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jujutsucraft:block/cursed_block",
+    "particle": "jujutsucraft:block/cursed_block"
+  },
+  "render_type": "translucent"
+}

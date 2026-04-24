@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "1": "minecraft:blocks/garuda",
+    "particle": "minecraft:items/icon_sword"
+  }
+}

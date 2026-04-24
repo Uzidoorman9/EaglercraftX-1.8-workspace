@@ -1,0 +1,64 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"ten_shadows_technique_mahoraga": {
+			"animation_length": 0.25,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [-62.37783, 4.69087, -77.96889]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-80, 15, 45]
+					},
+					"position": {
+						"vector": [-1, 0, 0]
+					}
+				},
+				"body": {
+					"position": {
+						"vector": [0, -5, 0]
+					}
+				},
+				"torso": {
+					"rotation": {
+						"vector": [24.14867, -20.70481, -9.00717]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [22.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -1, -1]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-44.56145, 7.05302, 7.10708]
+					},
+					"position": {
+						"vector": [0, 1, 4]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [40.41692, -4.00157, -8.74032]
+					},
+					"position": {
+						"vector": [0, 2, 4]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

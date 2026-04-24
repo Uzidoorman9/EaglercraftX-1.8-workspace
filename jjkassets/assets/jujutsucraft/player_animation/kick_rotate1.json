@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"kick_rotate1": {
+			"animation_length": 0.1667,
+			"bones": {
+				"armorRightArm": {
+					"rotation": {
+						"vector": [0, 0, 145]
+					},
+					"position": {
+						"vector": [-3, 3, 1]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 360, 180]
+						},
+						"0.1667": {
+							"vector": [0, 0, 180]
+						}
+					},
+					"position": {
+						"vector": [0, 12, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [22.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [0, 15, 180]
+					},
+					"position": {
+						"vector": [0, 4, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [0, -15, -180]
+					},
+					"position": {
+						"vector": [0, 4, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					},
+					"position": {
+						"vector": [-1, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [0, 0, -90]
+					},
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"torso": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1108,6 +1108,7 @@ public class RenderItem implements IResourceManagerReloadListener {
     //JJK MOD BELOW HERE
 
     this.registerItem(Items.sukuna_finger, "sukuna_finger");
+    this.registerItem(Items.black_rope, "hair_black");
 
 
 

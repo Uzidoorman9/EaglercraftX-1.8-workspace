@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jujutsucraft:block/domain_kashimo",
+    "particle": "jujutsucraft:block/domain_kashimo"
+  },
+  "render_type": "solid"
+}

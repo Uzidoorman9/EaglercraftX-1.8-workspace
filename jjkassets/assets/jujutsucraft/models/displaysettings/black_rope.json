@@ -1,0 +1,110 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -6,
+        -2,
+        -12
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        180,
+        0
+      ],
+      "translation": [
+        -6,
+        -2,
+        -12
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        4,
+        -13,
+        -7
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        4,
+        -13,
+        -7
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        10,
+        -6,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -45,
+        135,
+        0
+      ],
+      "translation": [
+        6.75,
+        -5.5,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        8.75,
+        -22.5,
+        0.5
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -9,
+        -14.5,
+        -2
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/hair_black"
+  }
+}

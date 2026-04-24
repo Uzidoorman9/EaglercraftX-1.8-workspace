@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/dragon_bone",
+  "textures": {
+    "1": "jujutsucraft:block/dragon_bone",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

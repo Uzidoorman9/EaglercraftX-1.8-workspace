@@ -1,0 +1,8 @@
+{
+  "parent": "jujutsucraft:custom/sword_kusakabe",
+  "textures": {
+    "0": "jujutsucraft:block/sword_kusakabe",
+    "1": "jujutsucraft:block/sword_blade",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

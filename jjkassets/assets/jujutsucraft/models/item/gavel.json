@@ -1,0 +1,6 @@
+{
+  "parent": "jujutsucraft:displaysettings/gavel",
+  "textures": {
+    "layer0": "jujutsucraft:item/gavel"
+  }
+}

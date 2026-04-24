@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"yasakani_no_magatama": {
+			"animation_length": 0.25,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"torso": {
+					"rotation": {
+						"vector": [10, 0, 0]
+					},
+					"position": {
+						"vector": [0, -2, -4]
+					}
+				},
+				"head": {
+					"position": {
+						"vector": [0, -3, -4]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-46.81321, -56.77406, -56.64611]
+					},
+					"position": {
+						"vector": [0.5, -4, -6]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-46.81321, 56.77406, 56.64611]
+					},
+					"position": {
+						"vector": [-0.5, -4, -6]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [0, 0, 12.5]
+					},
+					"position": {
+						"vector": [0, -1, -2]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [0, 0, -12.5]
+					},
+					"position": {
+						"vector": [0, -1, -2]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

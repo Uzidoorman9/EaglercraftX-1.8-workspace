@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "0": "minecraft:blocks/itadori_hand",
+    "particle": "minecraft:items/icon_sword"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft:blocks/coffin_of_the_iron_mountain_3",
+    "particle": "minecraft:blocks/coffin_of_the_iron_mountain_3"
+  }
+}

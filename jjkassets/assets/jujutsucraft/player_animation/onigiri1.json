@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"onigiri1": {
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [10, 0, 0]
+					},
+					"position": {
+						"vector": [0, -0.5, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-82.61229, -66.76496, 10.72303]
+					},
+					"position": {
+						"vector": [3, 0, -1]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-82.61229, 66.76496, -10.72303]
+					},
+					"position": {
+						"vector": [-3, 0, -1]
+					}
+				},
+				"torso": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-13.30696, 9.30727, 20.57639]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-13.30696, -9.30727, -20.57639]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

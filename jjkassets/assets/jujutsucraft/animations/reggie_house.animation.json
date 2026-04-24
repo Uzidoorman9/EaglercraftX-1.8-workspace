@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true
+		},
+		"fall": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": ["5-math.sin(query.anim_time*45)*2.5", 0, "5+math.sin(query.anim_time*22.5)*2.5"]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

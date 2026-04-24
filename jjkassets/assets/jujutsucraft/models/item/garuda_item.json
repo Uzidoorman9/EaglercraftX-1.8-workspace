@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/garuda",
+  "textures": {
+    "1": "jujutsucraft:block/garuda",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

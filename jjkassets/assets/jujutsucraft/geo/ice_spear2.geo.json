@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ice_spear2",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [90, 0, 0], "uv": [0, 3]},
+						{"origin": [-13.74933, 2.6365, -19.35037], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [111.88151, 28.02432, 40.52368], "uv": [0, 3]},
+						{"origin": [4.63225, 2.6365, -9.52055], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [111.88151, -28.02432, -40.52368], "uv": [0, 3], "mirror": true},
+						{"origin": [7.10476, -1.29994, -2], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [90, -15, -135], "uv": [0, 3], "mirror": true},
+						{"origin": [-23.42765, -1.29994, -2.88711], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [80.22757, 11.43563, -175.98084], "uv": [0, 3]},
+						{"origin": [7.10458, -1.30002, -2], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [90, -35, -95], "uv": [0, 3], "mirror": true},
+						{"origin": [-23.81441, -1.30002, -4.25128], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [68.11849, 28.02432, -135.52368], "uv": [0, 3]},
+						{"origin": [-23.10476, -1.29994, -14], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [90, 15, 130], "uv": [0, 3]},
+						{"origin": [7.10476, -1.29994, -2], "size": [16, 48, 16], "pivot": [0, 18.65215, 0], "rotation": [90, -15, 130], "uv": [0, 3], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

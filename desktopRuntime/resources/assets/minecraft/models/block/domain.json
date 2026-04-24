@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft:blocks/purple_portal",
+    "particle": "minecraft:blocks/purple_portal"
+  }
+}

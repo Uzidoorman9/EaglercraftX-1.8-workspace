@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 0.5
+		},
+		"rotation1": {
+			"loop": true,
+			"animation_length": 0.0833,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-360, 0, 0]
+						},
+						"0.0833": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"stand": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [0, 90, 0]
+					},
+					"position": {
+						"vector": [0, 16, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

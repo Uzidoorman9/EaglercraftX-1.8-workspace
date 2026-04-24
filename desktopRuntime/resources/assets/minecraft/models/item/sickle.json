@@ -1,0 +1,6 @@
+{
+  "parent": "builtin/handheld",
+  "textures": {
+    "layer0": "minecraft:items/sickle"
+  }
+}

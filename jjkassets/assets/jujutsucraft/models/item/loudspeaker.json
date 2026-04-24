@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/loudspeaker",
+  "textures": {
+    "0": "jujutsucraft:block/loudspeaker",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

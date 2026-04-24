@@ -1,0 +1,8 @@
+{
+  "parent": "jujutsucraft:custom/split_soul_katana",
+  "textures": {
+    "1": "jujutsucraft:block/split_soul_katana",
+    "2": "jujutsucraft:block/hair",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

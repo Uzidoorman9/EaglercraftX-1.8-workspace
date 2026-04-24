@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/g_staff",
+  "textures": {
+    "1": "jujutsucraft:block/naginata",
+    "particle": "jujutsucraft:item/icon_sword"
+  }
+}

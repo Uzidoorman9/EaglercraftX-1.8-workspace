@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"scissor1": {
+					"rotation": {
+						"vector": [0, 2.5, 0]
+					}
+				},
+				"scissor2": {
+					"rotation": {
+						"vector": [0, -2.5, 0]
+					}
+				}
+			}
+		},
+		"attack": {
+			"animation_length": 0.5,
+			"bones": {
+				"scissor1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 7.5, -0.00001]
+						},
+						"0.0833": {
+							"vector": [0, -7.5, 0]
+						},
+						"0.1667": {
+							"vector": [0, 7.5, -0.00001]
+						}
+					}
+				},
+				"scissor2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -7.5, 0]
+						},
+						"0.0833": {
+							"vector": [0, 7.5, 0]
+						},
+						"0.1667": {
+							"vector": [0, -7.5, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

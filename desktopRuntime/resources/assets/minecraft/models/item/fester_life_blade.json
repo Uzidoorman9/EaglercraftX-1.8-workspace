@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "0": "minecraft:blocks/fester_life_blade",
+    "particle": "minecraft:items/icon_sword"
+  }
+}

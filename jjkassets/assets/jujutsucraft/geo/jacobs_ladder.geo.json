@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.jacobs_ladder",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 15,
+				"visible_bounds_height": 9.5,
+				"visible_bounds_offset": [0, 4.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "seven_pointed_star",
+					"parent": "body",
+					"pivot": [0, 1.5, 0],
+					"cubes": [
+						{
+							"origin": [-64, 1, -64],
+							"size": [128, 1, 128],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4]},
+								"east": {"uv": [0, 0], "uv_size": [4, 4]},
+								"south": {"uv": [0, 0], "uv_size": [4, 4]},
+								"west": {"uv": [0, 0], "uv_size": [4, 4]},
+								"up": {"uv": [64, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [0, 0], "uv_size": [64, 64]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

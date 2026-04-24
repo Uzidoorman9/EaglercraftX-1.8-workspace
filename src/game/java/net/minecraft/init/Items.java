@@ -222,6 +222,7 @@ public class Items {
 	public static Item banner;
   //JJK STUFF BELOW HERE
   public static Item sukuna_finger;
+  public static Item black_rope;
 
 	private static Item getRegisteredItem(String name) {
 		return (Item) Item.itemRegistry.getObject(new ResourceLocation(name));
@@ -420,6 +421,7 @@ public class Items {
 			banner = getRegisteredItem("banner");
       //JJK ITEMS BELOW HERE
       sukuna_finger = getRegisteredItem("sukuna_finger");
+      black_rope = getRegisteredItem("black_rope");
 		}
 	}
 }

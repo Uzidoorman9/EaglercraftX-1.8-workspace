@@ -1045,6 +1045,8 @@ public class Item {
 
     registerItem(432, (String) "sukuna_finger",
 				(new Item()).setUnlocalizedName("sukunaFinger").setCreativeTab(CreativeTabs.tabFood));
+    registerItem(433, (String) "black_rope",
+				(new Item()).setUnlocalizedName("blackRope").setCreativeTab(CreativeTabs.tabMisc));
 
 
 

@@ -1,0 +1,7 @@
+{
+  "parent": "jujutsucraft:custom/hanami_hand",
+  "textures": {
+    "0": "jujutsucraft:block/hanami_hand",
+    "particle": "jujutsucraft:item/icon_item"
+  }
+}
