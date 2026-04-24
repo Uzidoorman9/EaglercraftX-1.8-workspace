@@ -905,6 +905,7 @@ public class Item {
 		registerItem(353, (String) "sugar", (new Item()).setUnlocalizedName("sugar")
 				.setPotionEffect(PotionHelper.sugarEffect).setCreativeTab(CreativeTabs.tabMaterials));
 		registerItem(354, (String) "cake", (new ItemReed(Blocks.cake)).setMaxStackSize(1).setUnlocalizedName("cake")
+		registerItem(354, (String) "cake", (new ItemReed(Blocks.cake)).setMaxStackSize(1).setUnlocalizedName("cake")
 				.setCreativeTab(CreativeTabs.tabFood));
 		registerItem(355, (String) "bed", (new ItemBed()).setMaxStackSize(1).setUnlocalizedName("bed"));
 		registerItem(356, (String) "repeater", (new ItemReed(Blocks.unpowered_repeater)).setUnlocalizedName("diode")
@@ -1043,7 +1044,7 @@ public class Item {
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
     //JJK ITEMS BELOW HERE
 
-    registerItem(264, (String) "sukuna_finger",
+    registerItem(432, (String) "sukuna_finger",
 				(new Item()).setUnlocalizedName("sukunaFinger").setCreativeTab(CreativeTabs.tabFood));
 
 
