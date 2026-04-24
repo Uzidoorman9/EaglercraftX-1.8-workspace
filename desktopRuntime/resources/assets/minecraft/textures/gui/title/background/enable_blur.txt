@@ -1,2 +1,2 @@
 # Change to 0 to disable blur
-enable_blur=1
+enable_blur=0
