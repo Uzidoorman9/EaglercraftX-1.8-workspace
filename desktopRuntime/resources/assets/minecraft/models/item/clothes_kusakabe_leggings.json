@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_clothes_kusakabe_leggings"
+    "layer0": "minecraft:items/icon_clothes_kusakabe_leggings",
+    "layer1": "minecraft:items/icon_clothes_kusakabe_leggings"
   }
 }

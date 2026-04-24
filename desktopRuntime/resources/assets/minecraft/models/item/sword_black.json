@@ -1,5 +1,5 @@
 {
-  "parent": "builtin/generated",
+  "parent": "builtin/handheld",
   "textures": {
     "0": "minecraft:blocks/sword_okkotsu",
     "1": "minecraft:blocks/playful_cloud",

@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_clothes_decisive_battle_helmet"
+    "layer0": "minecraft:items/icon_clothes_decisive_battle_helmet",
+    "layer1": "minecraft:items/icon_clothes_decisive_battle_helmet"
   }
 }

@@ -1,0 +1,5 @@
+// Items
+// Blocks
+registerBlock(256, "school_bell", (new Block(Material.rock)).setHardness(1.0F).setUnlocalizedName("school_bell").setCreativeTab(CreativeTabs.tabBlock));
+public static Block school_bell;
+school_bell = getRegisteredBlock("school_bell");

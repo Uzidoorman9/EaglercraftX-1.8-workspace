@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_kurourushi_legs"
+    "layer0": "minecraft:items/icon_kurourushi_legs",
+    "layer1": "minecraft:items/icon_kurourushi_legs"
   }
 }

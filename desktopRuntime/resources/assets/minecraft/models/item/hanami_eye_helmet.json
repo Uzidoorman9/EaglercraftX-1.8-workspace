@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_hanami_eye"
+    "layer0": "minecraft:items/icon_hanami_eye",
+    "layer1": "minecraft:items/icon_hanami_eye"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_clothes_ishigori_boots"
+    "layer0": "minecraft:items/icon_clothes_ishigori_boots",
+    "layer1": "minecraft:items/icon_clothes_ishigori_boots"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_insect_armor_legs"
+    "layer0": "minecraft:items/icon_insect_armor_legs",
+    "layer1": "minecraft:items/icon_insect_armor_legs"
   }
 }

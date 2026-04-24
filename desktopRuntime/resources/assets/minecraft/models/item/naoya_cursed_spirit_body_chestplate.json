@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_armor_naoya_cursed_spirit"
+    "layer0": "minecraft:items/icon_armor_naoya_cursed_spirit",
+    "layer1": "minecraft:items/icon_armor_naoya_cursed_spirit"
   }
 }

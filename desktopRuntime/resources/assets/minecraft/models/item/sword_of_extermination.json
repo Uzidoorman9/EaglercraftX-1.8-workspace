@@ -1,5 +1,5 @@
 {
-  "parent": "builtin/generated",
+  "parent": "builtin/handheld",
   "textures": {
     "0": "minecraft:blocks/sword_of_extermination_blade",
     "particle": "minecraft:items/icon_sword"

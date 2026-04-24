@@ -26,4 +26,7 @@ python3 modify_json.py lang jjkassets/assets/jujutsucraft/lang/en_us.json temp_l
 cat temp_lang.txt >> desktopRuntime/resources/assets/minecraft/lang/en_US.lang
 rm temp_lang.txt
 
+echo "Generated code:"
+cat generated_code.txt
+
 echo "Setup complete."

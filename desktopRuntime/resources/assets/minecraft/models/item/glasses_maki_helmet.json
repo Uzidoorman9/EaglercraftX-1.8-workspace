@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_glasses_maki"
+    "layer0": "minecraft:items/icon_glasses_maki",
+    "layer1": "minecraft:items/icon_glasses_maki"
   }
 }

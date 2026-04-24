@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_hair_fushiguro_megumi"
+    "layer0": "minecraft:items/icon_hair_fushiguro_megumi",
+    "layer1": "minecraft:items/icon_hair_fushiguro_megumi"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_uniform_q_head"
+    "layer0": "minecraft:items/icon_uniform_q_head",
+    "layer1": "minecraft:items/icon_uniform_q_head"
   }
 }

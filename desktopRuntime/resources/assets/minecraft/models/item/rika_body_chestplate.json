@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_rika_armor_body"
+    "layer0": "minecraft:items/icon_rika_armor_body",
+    "layer1": "minecraft:items/icon_rika_armor_body"
   }
 }

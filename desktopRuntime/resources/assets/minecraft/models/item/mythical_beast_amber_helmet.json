@@ -1,8 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "0": "minecraft:blocks/mythicalbeastamber_head",
-    "1": "minecraft:blocks/clear",
-    "particle": "minecraft:items/mythical_beast_amber_head"
+    "layer0": "",
+    "layer1": ""
   }
 }

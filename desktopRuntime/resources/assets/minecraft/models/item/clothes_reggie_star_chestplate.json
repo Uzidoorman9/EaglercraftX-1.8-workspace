@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_clothes_reggie"
+    "layer0": "minecraft:items/icon_clothes_reggie",
+    "layer1": "minecraft:items/icon_clothes_reggie"
   }
 }

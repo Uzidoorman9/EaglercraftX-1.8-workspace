@@ -1,6 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "minecraft:items/icon_head_propeller"
+    "layer0": "minecraft:items/icon_head_propeller",
+    "layer1": "minecraft:items/icon_head_propeller"
   }
 }

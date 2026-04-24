@@ -1,5 +1,5 @@
 {
-  "parent": "builtin/generated",
+  "parent": "builtin/handheld",
   "textures": {
     "0": "minecraft:blocks/blazing_courage",
     "1": "minecraft:blocks/clear",

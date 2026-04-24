@@ -1,5 +1,5 @@
 {
-  "parent": "builtin/generated",
+  "parent": "builtin/handheld",
   "textures": {
     "0": "minecraft:blocks/sword_miwa1",
     "1": "minecraft:blocks/silver",
