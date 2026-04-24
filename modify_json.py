@@ -5,6 +5,8 @@ import os
 
 code_items = []
 code_blocks = []
+item_id = 434
+block_id = 256
 
 def classify_item(name):
     if '_spawn_egg' in name:
@@ -46,7 +48,7 @@ def modify_item_model(data, name):
                     data['textures'][key] = value.replace('jujutsucraft:block/', 'minecraft:blocks/')
     
     # Generate code
-    global code_items
+    global code_items, item_id
     item_name = name.replace('.json', '')
     if type_ == 'armor':
         slot = 0
@@ -58,10 +60,12 @@ def modify_item_model(data, name):
             slot = 2
         elif 'boots' in item_name:
             slot = 3
-        code_items.append(f"registerItem({len(code_items)+434}, \"{item_name}\", (new ItemArmor(ItemArmor.ArmorMaterial.LEATHER, 0, {slot})).setUnlocalizedName(\"{item_name}\").setCreativeTab(CreativeTabs.tabCombat));")
+        code_items.append(f"registerItem({item_id}, \"{item_name}\", (new ItemArmor(EnumArmorMaterial.LEATHER, 0, {slot})).setUnlocalizedName(\"{item_name}\").setCreativeTab(CreativeTabs.tabCombat));")
+        item_id += 1
         code_items.append(f"this.registerItem(Items.{item_name}, \"{item_name}\");")
     else:
-        code_items.append(f"registerItem({len(code_items)+434}, \"{item_name}\", (new Item()).setUnlocalizedName(\"{item_name}\").setCreativeTab(CreativeTabs.tabMisc));")
+        code_items.append(f"registerItem({item_id}, \"{item_name}\", (new Item()).setUnlocalizedName(\"{item_name}\").setCreativeTab(CreativeTabs.tabMisc));")
+        item_id += 1
         code_items.append(f"this.registerItem(Items.{item_name}, \"{item_name}\");")
     code_items.append(f"public static Item {item_name};")
     code_items.append(f"{item_name} = getRegisteredItem(\"{item_name}\");")
@@ -77,9 +81,10 @@ def modify_block_model(data, name):
                 data['textures'][key] = value.replace('jujutsucraft:block/', 'minecraft:blocks/')
     
     # Generate code
-    global code_blocks
+    global code_blocks, block_id
     block_name = name.replace('.json', '')
-    code_blocks.append(f"registerBlock({len(code_blocks)+256}, \"{block_name}\", (new Block(Material.rock)).setHardness(1.0F).setUnlocalizedName(\"{block_name}\").setCreativeTab(CreativeTabs.tabBlock));")
+    code_blocks.append(f"registerBlock({block_id}, \"{block_name}\", (new Block(Material.rock)).setHardness(1.0F).setUnlocalizedName(\"{block_name}\").setCreativeTab(CreativeTabs.tabBlock));")
+    block_id += 1
     code_blocks.append(f"public static Block {block_name};")
     code_blocks.append(f"{block_name} = getRegisteredBlock(\"{block_name}\");")
     
