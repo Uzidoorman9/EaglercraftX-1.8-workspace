@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "items/JJK/item_sukuna_finger"
+        "layer0": "minecraft:items/jjk/item_sukuna_finger"
     },
     "display": {
         "thirdperson": {
