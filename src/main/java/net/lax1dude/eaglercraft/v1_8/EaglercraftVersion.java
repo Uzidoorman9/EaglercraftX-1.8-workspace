@@ -3,6 +3,14 @@ package net.lax1dude.eaglercraft.v1_8;
 import java.math.BigInteger;
 
 public class EaglercraftVersion {
+
+  public static final String projectForkName = "";
+  public static final String projectForkVersion = "";
+  public static final String projectForkVendor = "";
+  public static final String projectForkURL = "";
+
+
+
 	public static final String projectOriginName = "EaglerJuJutsu";
 	public static final String projectOriginAuthor = "Uzi I think";
 	public static final String projectOriginRevision = "1.8";
@@ -43,8 +51,8 @@ public class EaglercraftVersion {
 	public static final String mainMenuStringC = "";
 	public static final String mainMenuStringD = "Resources Copyright Mojang AB";
 
-	public static final String mainMenuStringE = projectForkName + " " + projectForkVersion;
-	public static final String mainMenuStringF = "Made by " + projectForkVendor;
+	public static final String mainMenuStringE = "";
+	public static final String mainMenuStringF = """";
 
 	public static final String mainMenuStringG = "Collector's Edition";
 	public static final String mainMenuStringH = "PBR Shaders";
