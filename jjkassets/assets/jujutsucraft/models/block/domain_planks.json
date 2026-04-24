@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jujutsucraft:block/domain_planks",
-    "particle": "jujutsucraft:block/domain_planks"
-  },
-  "render_type": "solid"
-}

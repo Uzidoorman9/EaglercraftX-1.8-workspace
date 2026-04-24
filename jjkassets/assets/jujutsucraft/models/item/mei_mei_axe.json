@@ -1,8 +1,0 @@
-{
-  "parent": "jujutsucraft:custom/meimei_axe",
-  "textures": {
-    "0": "jujutsucraft:block/blazing_courage",
-    "1": "jujutsucraft:block/clear",
-    "particle": "jujutsucraft:item/icon_sword"
-  }
-}

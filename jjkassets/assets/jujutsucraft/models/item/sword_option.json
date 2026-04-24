@@ -1,6 +1,0 @@
-{
-  "parent": "jujutsucraft:displaysettings/sword_option.item",
-  "textures": {
-    "layer0": "jujutsucraft:item/playful_cloud"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "jujutsucraft:displaysettings/death_paintings",
-  "textures": {
-    "layer0": "jujutsucraft:item/death_paintings"
-  }
-}

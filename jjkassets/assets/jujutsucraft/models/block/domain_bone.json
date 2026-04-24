@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jujutsucraft:block/white",
-    "particle": "jujutsucraft:block/white"
-  },
-  "render_type": "solid"
-}

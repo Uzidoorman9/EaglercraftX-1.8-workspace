@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jujutsucraft:block/tex_flower",
-    "particle": "jujutsucraft:block/tex_flower"
-  },
-  "render_type": "solid"
-}

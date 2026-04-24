@@ -1,7 +1,0 @@
-{
-  "parent": "jujutsucraft:custom/pendant_todo",
-  "textures": {
-    "0": "jujutsucraft:block/pendant_todo",
-    "particle": "jujutsucraft:item/icon_item"
-  }
-}

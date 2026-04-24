@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jujutsucraft:block/dark_netherrack",
-    "particle": "jujutsucraft:block/dark_netherrack"
-  },
-  "render_type": "solid"
-}

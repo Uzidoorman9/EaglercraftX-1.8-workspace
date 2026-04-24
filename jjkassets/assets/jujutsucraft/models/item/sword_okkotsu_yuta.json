@@ -1,8 +1,0 @@
-{
-  "parent": "jujutsucraft:custom/sword_okkotsu",
-  "textures": {
-    "0": "jujutsucraft:block/sword_okkotsu",
-    "1": "jujutsucraft:block/sword_blade",
-    "particle": "jujutsucraft:item/icon_sword"
-  }
-}

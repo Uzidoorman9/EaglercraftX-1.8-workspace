@@ -1,7 +1,0 @@
-{
-  "parent": "jujutsucraft:custom/naginata",
-  "textures": {
-    "0": "jujutsucraft:block/naginata",
-    "particle": "jujutsucraft:item/icon_sword"
-  }
-}
