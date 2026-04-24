@@ -1,0 +1,14 @@
+From https://github.com/Uzidoorman9/EaglercraftX-1.8-workspace
+ * branch              master     -> FETCH_HEAD
+file: is not a valid attribute name: .gitattributes:1
+URL: is not a valid attribute name: .gitattributes:3
+Merge made by the 'ort' strategy.
+file: is not a valid attribute name: .gitattributes:1
+URL: is not a valid attribute name: .gitattributes:3
+file: is not a valid attribute name: .gitattributes:1
+URL: is not a valid attribute name: .gitattributes:3
+ output/largest.html | 117 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 117 insertions(+)
+ create mode 100644 output/largest.html
+file: is not a valid attribute name: .gitattributes:1
+URL: is not a valid attribute name: .gitattributes:3
