@@ -1,3 +1,4 @@
-*.bat           text eol=crlf
-*.sh            text eol=lf
-gradlew         text eol=lf
+Binary file: .gitattributes
+
+Download URL:
+https://raw.githubusercontent.com/Uzidoorman9/EaglercraftX-1.8-workspace/master/.gitattributes
