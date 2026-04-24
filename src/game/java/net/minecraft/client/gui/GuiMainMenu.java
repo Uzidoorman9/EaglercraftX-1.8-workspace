@@ -658,7 +658,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 			this.drawTexturedModalRect(k + 99 + 26 + 3, b0 + 0, 99, 0, 26, 44);
 			this.drawTexturedModalRect(k + 154, b0 + 0, 0, 45, 155, 44);
 		} else {
-			this.drawTexturedModalRect(k + 0, b0 + 0, 0, 0, 190, 80);
+			this.drawTexturedModalRect(k + 0, b0 + 0, 0, 0, 155, 44);
 			this.drawTexturedModalRect(k + 155, b0 + 0, 0, 45, 155, 44);
 		}
 
