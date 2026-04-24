@@ -1,7 +1,0 @@
-{
-  "parent": "builtin/generated",
-  "textures": {
-    "0": "minecraft:blocks/cursedtool_fan_of_daitengu",
-    "particle": "minecraft:items/icon_sword"
-  }
-}
