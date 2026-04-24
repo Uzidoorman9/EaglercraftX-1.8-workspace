@@ -1,0 +1,17 @@
+name: Cancel ALL Other Runs
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  cancel-all:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cancel all other workflow runs
+        uses: styfle/cancel-workflow-action@0.12.0
+        with:
+          access_token: ${{ github.token }}
+          ignore_current_run: true
