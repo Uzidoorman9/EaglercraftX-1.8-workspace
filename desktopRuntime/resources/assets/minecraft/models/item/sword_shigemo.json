@@ -1,9 +1,0 @@
-{
-  "parent": "builtin/handheld",
-  "textures": {
-    "0": "minecraft:blocks/sword_shigemo",
-    "1": "minecraft:blocks/sword_blade",
-    "1_0": "minecraft:blocks/sword_okkotsu",
-    "particle": "minecraft:items/icon_sword"
-  }
-}
