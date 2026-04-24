@@ -52,7 +52,7 @@ public class EaglercraftVersion {
 	public static final String mainMenuStringD = "Resources Copyright Mojang AB";
 
 	public static final String mainMenuStringE = "";
-	public static final String mainMenuStringF = """";
+	public static final String mainMenuStringF = "";
 
 	public static final String mainMenuStringG = "Collector's Edition";
 	public static final String mainMenuStringH = "PBR Shaders";
