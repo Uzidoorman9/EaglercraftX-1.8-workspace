@@ -1,7 +1,0 @@
-{
-  "parent": "builtin/generated",
-  "textures": {
-    "layer0": "minecraft:items/icon_uniform_gojo_body",
-    "layer1": "minecraft:items/icon_uniform_gojo_body"
-  }
-}
