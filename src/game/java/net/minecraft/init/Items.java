@@ -220,6 +220,8 @@ public class Items {
 	public static Item prismarine_shard;
 	public static Item prismarine_crystals;
 	public static Item banner;
+  //JJK STUFF BELOW HERE
+  public static Item item_sukuna_finger;
 
 	private static Item getRegisteredItem(String name) {
 		return (Item) Item.itemRegistry.getObject(new ResourceLocation(name));
@@ -416,6 +418,8 @@ public class Items {
 			prismarine_shard = getRegisteredItem("prismarine_shard");
 			prismarine_crystals = getRegisteredItem("prismarine_crystals");
 			banner = getRegisteredItem("banner");
+      //JJK ITEMS BELOW HERE
+      item_sukuna_finger = getRegisteredItem("item_sukuna_finger")
 		}
 	}
 }
