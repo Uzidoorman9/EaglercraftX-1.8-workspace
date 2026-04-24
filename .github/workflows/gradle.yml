@@ -1,0 +1,61 @@
+name: Build WASM Bundle
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Run Gradle task
+        run: ./gradlew makeMainWasmClientBundle
+
+      - name: Find largest HTML file
+        id: find_html
+        run: |
+          FILE=$(find . -type f -name "*.html" -printf "%s %p\n" | sort -nr | head -n1 | cut -d' ' -f2-)
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+          echo "Largest file: $FILE"
+
+      - name: Prepare output folder
+        run: |
+          mkdir -p output
+          cp -f "${{ steps.find_html.outputs.file }}" output/largest.html
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: largest-html
+          path: output/
+
+      # OPTIONAL: commit it back to repo
+      - name: Commit largest HTML (optional)
+        if: github.ref == 'refs/heads/master'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          mkdir -p output
+          cp -f "${{ steps.find_html.outputs.file }}" output/largest.html
+
+          git add output/largest.html
+
+          # Always commit even if identical
+          git commit --allow-empty -m "Update largest HTML artifact"
+
+          git pull --rebase
+          git push
