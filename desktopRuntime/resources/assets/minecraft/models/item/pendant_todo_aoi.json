@@ -1,7 +1,0 @@
-{
-  "parent": "builtin/generated",
-  "textures": {
-    "0": "minecraft:blocks/pendant_todo",
-    "particle": "minecraft:items/icon_item"
-  }
-}
