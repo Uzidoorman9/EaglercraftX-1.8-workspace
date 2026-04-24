@@ -111,7 +111,9 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
 			new ResourceLocation("textures/gui/title/background/panorama_2.png"),
 			new ResourceLocation("textures/gui/title/background/panorama_3.png"),
 			new ResourceLocation("textures/gui/title/background/panorama_4.png"),
-			new ResourceLocation("textures/gui/title/background/panorama_5.png") };
+			new ResourceLocation("textures/gui/title/background/panorama_5.png"),
+      new ResourceLocation("textures/gui/title/background/panorama_5.png"),
+      new ResourceLocation("textures/gui/title/background/panorama_5.png") };
 	private int field_92024_r;
 	private int field_92023_s;
 	private int field_92022_t;
