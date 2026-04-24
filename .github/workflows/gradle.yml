@@ -1,0 +1,43 @@
+name: Build WASM Bundle
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
+      - name: Run makeMainWasmClientBundle
+        run: ./gradlew makeMainWasmClientBundle
+
+      - name: Find largest HTML file
+        id: find_html
+        run: |
+          FILE=$(find . -type f -name "*.html" -printf "%s %p\n" | sort -nr | head -n1 | cut -d' ' -f2-)
+          echo "Found largest HTML: $FILE"
+          echo "html_file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Prepare output
+        run: |
+          mkdir -p output
+          cp "${{ steps.find_html.outputs.html_file }}" output/JuJutsuEagler.html
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: JuJutsuEagler
+          path: output/JuJutsuEagler.html
