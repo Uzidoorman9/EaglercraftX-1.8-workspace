@@ -1,6 +1,0 @@
-{
-  "parent": "builtin/handheld",
-  "textures": {
-    "layer0": "minecraft:items/playful_cloud"
-  }
-}
