@@ -1,7 +1,0 @@
-{
-  "parent": "builtin/generated",
-  "textures": {
-    "0": "minecraft:blocks/weapon_kashimo",
-    "particle": "minecraft:items/icon_sword"
-  }
-}
